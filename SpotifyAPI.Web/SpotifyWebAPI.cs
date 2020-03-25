@@ -1412,28 +1412,6 @@ namespace SpotifyAPI.Web
         /// <summary>
         ///     Get full details of the tracks of a playlist owned by a Spotify user.
         /// </summary>
-        /// <param name="userId">The user's Spotify user ID.</param>
-        /// <param name="playlistId">The Spotify ID for the playlist.</param>
-        /// <param name="fields">
-        ///     Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are
-        ///     returned.
-        /// </param>
-        /// <param name="limit">The maximum number of tracks to return. Default: 100. Minimum: 1. Maximum: 100.</param>
-        /// <param name="offset">The index of the first object to return. Default: 0 (i.e., the first object)</param>
-        /// <param name="market">An ISO 3166-1 alpha-2 country code. Provide this parameter if you want to apply Track Relinking.</param>
-        /// <returns></returns>
-        /// <remarks>AUTH NEEDED</remarks>
-        [Obsolete("Calling GetPlaylistTracks with a userId is deprecated, remove the parameter")]
-        public Paging<PlaylistTrack> GetPlaylistTracks(string userId, string playlistId, string fields = "", int limit = 100, int offset = 0, string market = "")
-        {
-            if (!UseAuth)
-                throw new InvalidOperationException("Auth is required for GetPlaylistTracks");
-            return DownloadData<Paging<PlaylistTrack>>(_builder.GetPlaylistTracks(userId, playlistId, fields, limit, offset, market));
-        }
-
-        /// <summary>
-        ///     Get full details of the tracks of a playlist owned by a Spotify user.
-        /// </summary>
         /// <param name="playlistId">The Spotify ID for the playlist.</param>
         /// <param name="fields">
         ///     Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are
@@ -1450,29 +1428,7 @@ namespace SpotifyAPI.Web
                 throw new InvalidOperationException("Auth is required for GetPlaylistTracks");
             return DownloadData<Paging<PlaylistTrack>>(_builder.GetPlaylistTracks(playlistId, fields, limit, offset, market));
         }
-
-        /// <summary>
-        ///     Get full details of the tracks of a playlist owned by a Spotify user asyncronously.
-        /// </summary>
-        /// <param name="userId">The user's Spotify user ID.</param>
-        /// <param name="playlistId">The Spotify ID for the playlist.</param>
-        /// <param name="fields">
-        ///     Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are
-        ///     returned.
-        /// </param>
-        /// <param name="limit">The maximum number of tracks to return. Default: 100. Minimum: 1. Maximum: 100.</param>
-        /// <param name="offset">The index of the first object to return. Default: 0 (i.e., the first object)</param>
-        /// <param name="market">An ISO 3166-1 alpha-2 country code. Provide this parameter if you want to apply Track Relinking.</param>
-        /// <returns></returns>
-        /// <remarks>AUTH NEEDED</remarks>
-        [Obsolete("Calling GetPlaylistTracks with a userId is deprecated, remove the parameter")]
-        public Task<Paging<PlaylistTrack>> GetPlaylistTracksAsync(string userId, string playlistId, string fields = "", int limit = 100, int offset = 0, string market = "")
-        {
-            if (!UseAuth)
-                throw new InvalidOperationException("Auth is required for GetPlaylistTracks");
-            return DownloadDataAsync<Paging<PlaylistTrack>>(_builder.GetPlaylistTracks(userId, playlistId, fields, limit, offset, market));
-        }
-
+        
         /// <summary>
         ///     Get full details of the tracks of a playlist owned by a Spotify user asyncronously.
         /// </summary>
@@ -1486,7 +1442,6 @@ namespace SpotifyAPI.Web
         /// <param name="market">An ISO 3166-1 alpha-2 country code. Provide this parameter if you want to apply Track Relinking.</param>
         /// <returns></returns>
         /// <remarks>AUTH NEEDED</remarks>
-        [Obsolete("Calling GetPlaylistTracks with a userId is deprecated, remove the parameter")]
         public Task<Paging<PlaylistTrack>> GetPlaylistTracksAsync(string playlistId, string fields = "", int limit = 100, int offset = 0, string market = "")
         {
             if (!UseAuth)
