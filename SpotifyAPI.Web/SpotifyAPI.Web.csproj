@@ -5,6 +5,8 @@
     <PackageId>Caerostris.Services.Spotify.Web.SpotifyAPI.Web</PackageId>
     <Title>SpotifyAPI.Web</Title>
     <Authors>Jonas Dellinger, tresoneur</Authors>
+    <PackageLicenseUrl>https://github.com/tresoneur/SpotifyAPI-NET/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/tresoneur/SpotifyAPI-NET</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <Description>
     </Description>
