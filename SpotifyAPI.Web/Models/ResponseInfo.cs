@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace SpotifyAPI.Web.Models
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Models
 {
     public class ResponseInfo
     {

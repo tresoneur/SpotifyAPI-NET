@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using SpotifyAPI.Web.Models;
+using Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Models;
 
-namespace SpotifyAPI.Web
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web
 {
     public interface IClient : IDisposable
     {

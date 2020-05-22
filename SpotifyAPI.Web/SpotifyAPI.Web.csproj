@@ -2,19 +2,14 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <PackageId>SpotifyAPI.Web</PackageId>
+    <PackageId>Caerostris.Services.Spotify.Web.SpotifyAPI.Web</PackageId>
     <Title>SpotifyAPI.Web</Title>
-    <Authors>Jonas Dellinger</Authors>
-    <PackageLicenseUrl>https://github.com/JohnnyCrazy/SpotifyAPI-NET/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/JohnnyCrazy/SpotifyAPI-NET/</PackageProjectUrl>
+    <Authors>Jonas Dellinger, tresoneur</Authors>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <Description>
-      An API for Spotify's Web API, written in .NET
-
-      For more infos, visit https://github.com/JohnnyCrazy/SpotifyAPI-NET
     </Description>
     <PackageTags>
-      spotify api music .net c# spotify-client
+      spotify api music .net c# spotify-client blazor webassembly
     </PackageTags>
   </PropertyGroup>
 

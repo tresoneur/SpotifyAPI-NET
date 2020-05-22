@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using SpotifyAPI.Web.Enums;
-using SpotifyAPI.Web.Models;
+using Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Enums;
+using Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Models;
 
-namespace SpotifyAPI.Web
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web
 {
     /// <summary>
     /// SpotifyAPI URL-Generator

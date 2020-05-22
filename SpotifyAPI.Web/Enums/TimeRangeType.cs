@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpotifyAPI.Web.Enums
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Enums
 {
     /// <summary>
     ///     Only one value allowed

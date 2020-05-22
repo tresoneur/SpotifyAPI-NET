@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using SpotifyAPI.Web.Enums;
-using SpotifyAPI.Web.Models;
+using Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Enums;
+using Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SpotifyAPI.Web
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web
 {
     // ReSharper disable once InconsistentNaming
     public sealed class SpotifyWebAPI : IDisposable

@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using SpotifyAPI.Web.Enums;
+using Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Enums;
 
-namespace SpotifyAPI.Web.Models
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Models
 {
     public class PlaybackContext : BasicModel
     {

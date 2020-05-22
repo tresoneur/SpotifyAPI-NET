@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace SpotifyAPI.Web.Models
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Models
 {
     public class Token
     {

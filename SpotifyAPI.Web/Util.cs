@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace SpotifyAPI.Web
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web
 {
     public static class Util
     {

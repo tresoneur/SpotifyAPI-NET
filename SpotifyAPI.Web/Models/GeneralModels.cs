@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SpotifyAPI.Web.Models
+namespace Caerostris.Services.Spotify.Web.SpotifyAPI.Web.Models
 {
     public class Image
     {
