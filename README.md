@@ -1,7 +1,9 @@
 SpotifyAPI-NET @ WebAssembly
 ===
 
-A Wrapper for Spotify's Web API, written in .NET, modified to work with client side (WebAssembly) Blazor
+**This fork is no longer maintained. The [original library](http://johnnycrazy.github.io/SpotifyAPI-NET/) is now compatible with client-side Blazor.**
+
+A Wrapper for Spotify's Web API, written in .NET, modified to work with client-side (WebAssembly) Blazor
 
 **Spotify's Web API**
 > Based on simple REST principles, our Web API endpoints return metadata in JSON format about artists, albums, and tracks directly from the Spotify catalogue.
